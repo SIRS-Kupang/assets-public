@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ekinerja
+  description: E-Kinerja Pegawai RSUP Ben Mboi
+  annotations:
+    backstage.io/techdocs-ref: url:https://e-kinerja.rsupbenmboi.online
+  tags:
+    - simrs
+    - ekinerja
+  links:
+    - url: https://e-kinerja.rsupbenmboi.online
+      title: Buka E-Kinerja
+      icon: web
+spec:
+  type: website
+  lifecycle: production
+  owner: instalasi-simrs
